@@ -65,10 +65,14 @@ Back in Wireshark, filter for DHCP traffic only
 From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
 Observe the DHCP traffic appearing in WireShark
 
+![image](https://github.com/Tomcruztech/Network-sec-groups/assets/160645953/898fe139-daf9-44cc-90c3-d00829567b98)
+
 Part 2 (Observe DNS Traffic)
 Back in Wireshark, filter for DNS traffic only
 From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are
 Observe the DNS traffic being show in WireShark
+
+![image](https://github.com/Tomcruztech/Network-sec-groups/assets/160645953/eba380a9-665a-4754-82c7-3b4b91bff091)
 
 
 Part 2 (Observe RDP Traffic)
