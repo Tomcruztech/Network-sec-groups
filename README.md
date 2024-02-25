@@ -1,11 +1,10 @@
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
-<h2>Video Demonstration</h2>
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
+
 <h2>Environments and Technologies Used</h2>
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
+- Various Network Protocols (SSH, IPCONFIG, DNS, DHCP, ICMP)
 - Wireshark (Protocol Analyzer)
 <h2>Operating Systems Used </h2>
 - Windows 10 (21H2)
@@ -75,8 +74,5 @@ Observe the DNS traffic being show in WireShark
 ![image](https://github.com/Tomcruztech/Network-sec-groups/assets/160645953/eba380a9-665a-4754-82c7-3b4b91bff091)
 
 
-Part 2 (Observe RDP Traffic)
-Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
-Oserve the immediate non-stop spam of traffic? Why do you think it’s non-stop spamming vs only showing traffic when you do an activity?
-Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
+
 
